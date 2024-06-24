@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f6196374c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="\"><img src="images/Untitled Design-fotor-bg-remover-2023040303756.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Softwer Developer</p> -->
+                <h1>Hi,I am <span>Thejas B P</span><br>A Tech Enthusiast and having <br>good problem solving skills</h1>
+                <img src="images/bg.png" >
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="about-col1">
+                    <img src="images/user.png" >
+                </div> -->
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am studying the engineering in Bangalore institute of technology with the specialization in Artificial Intelligence and Machine Learning.A tech enthusiast passionate about exploring new technologies and leveraging innovative solutions toreal-world challenges.I am eager to secure a position where I can efficiently contribute my skills and abilities to the growth of the organization and build my professional career.</p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tablinks activelink" onclick="opentab(skills)">Skills</p>
+                        <!-- <p class="tablinks" onclick="opentab(experience)">Experience</p> -->
+                        <!-- <p class="tablinks" onclick="opentab(education)">Education</p> -->
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li>C++</li>
+                            <li>Data Structures and algorithms</li>
+                            <li>Intermediate in Python and Java</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li>Experience refers to conscious events in general, more specifically to perceptions, or to the practical knowledge and familiarity that is produced by these processes</li>
+                            <li> Understood as a conscious event in the widest sense, </li>
+                            <li>Basics of DSA</li>
+                            <li>A great variety of types of experiences is discussed in the academic literature</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li>One in every five children — from youth to adolescence — are not in school worldwide</li>
+                            <li>Java Programming language</li>
+                            <li> one in every three children are out of school.1 </li>
+                            <li>Just 50 percent of primary school aged refugee children are enrolled in school,</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-list-check"></i>
+                    <h2>License Plate Recognition</h2>
+                    <p>Developed a License Plate Detection Project using image processing techniques.
+                        Implemented object detection algorithms to identify license plate regions in input images, followed by segmentation and character extraction.
+                        Utilized optical character recognition (OCR) algorithms to recognize alphanumeric characters on the license plates. Proficiently used Python, OpenCV, OCR.</p>
+                    <a href="https://github.com/thejasbp/LPR">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <h2>Ticket Purchase using Blockchain</h2>
+                    <p>Developed a simple ticket purchase website using javascript and solidity for smart contracts.
+                    Utilized Metamask for transactions and Ganache for ethereum coins. </p>
+                    <a href="https://github.com/thejasbp/Ticket-Purchase-using-Blockchain">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-qrcode"></i>
+                    <h2>Medical Insurance Price Prediction</h2>
+                    <p> Designed a medical insurance price prediction model using linear regression. Preprocessed the dataset by encoding categorical variables and splitting it into training and testing sets. Trained the model, evaluated its performance using R-squared values, and implemented it to predict insurance costs based on input features.</p>
+                    <a href="https://github.com/thejasbp/AML-Project-">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h2>ODE 2 CODE</h2>
+                        <p>Participated in online coding competition 'ODE 2 CODE ' organized by CODE ISE CLUB with the coordination with Dept of ISE,Bangalore Institue of Technology </p>
+                        <a href="https://drive.google.com/file/d/1lU7mC59LZmkxxAm8wNdR03o1bVoF2PXQ/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h2>IEMHacks 2.0</h2>
+                        <p>Participated in IEM Hacks 24/7 Hackathon with presenting the Agricultural Theme Project</p>
+                        <a href="https://drive.google.com/file/d/1TY1hXMFWD4NX1-X5FmdZwFUFTz9gTCMn/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h2>Online Internship</h2>
+                        <p>Completed the online internship in Compsoft technologies</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <a href=https://drive.google.com/drive/folders/17phoCVOKOHnr3iLWLi7-8PVhDCMDCgAQ?usp=sharing" class="btn">See More</a>
+            
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p>thejasbp2002@gmail.com</p>
+                    <p>7795137780</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/thejas_tth5?t=IrfXNFA4LkmtLjGzDnwDcQ&s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/thejas-b-p-a5354b233/"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/17phoCVOKOHnr3iLWLi7-8PVhDCMDCgAQ?usp=sharing" download class="btn btn2">Download CV</a>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                           
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Thejas B P</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classlist.remove("activelink");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink")
+            document.getElementById(tabname).classList.add("activetab")
+        }
+    
+    </script>
+<script>
+    var sidemen = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemen.style.right="0";
+    }
+    function closemenu(){
+        sidemen.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwVYYAaJ7BsiIWeMsJRtSZPkZX59Fr09YmzMwoCnxluiP-tN6_rJ4Q0z7xXKYPvYJWr/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent Successfully"
+            setTimeout(function()
+            {
+                msg.innerHTML=""    
+                },5000)
+                form.reset()
+        }
+        )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
